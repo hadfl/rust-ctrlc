@@ -27,3 +27,6 @@ termination = []
 harness = false
 name = "tests"
 path = "src/tests.rs"
+
+[patch.crates-io]
+nix = { git = "https://github.com/jasonbking/nix", branch = "illumos" }
